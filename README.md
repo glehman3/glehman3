@@ -21,7 +21,7 @@ This repo points at that work in public: [**qe-skill**](https://github.com/glehm
 |------|---------|
 | [**qe-skill**](https://github.com/glehman3/qe-skill) | **Quality Engineering Suite** for Cursor — `/qforge` menu, AI-guided test jam and case generation, risk analysis [beta], GitHub MCP, CSV and Jira export |
 
-Clone **qe-skill**, restart Cursor, open the folder, and run `/qforge` to try the workflow pack.
+Clone **qe-skill**, restart Cursor, open the folder, and run `/qforge` to try the workflow pack. Custom connectors/MCP's not included yet.
 
 ### Posting utilities
 
