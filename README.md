@@ -1,29 +1,39 @@
 # Gregory Lehman
 
-Senior Software Quality Engineer / SDET focused on Playwright automation, API validation, CI/CD quality practices, and Cursor agent workflows for test design and job-application tooling.
+Senior Software Quality Engineer / SDET at **Intuit** — Playwright automation, API and RBAC validation, CI/CD quality gates, and structured test design in the open.
+
+*8 public repos · CI on showcased tools · pytest · Playwright · GitHub Actions*
+
+I favor deterministic checks over hand-wavy quality claims: local rubrics, structural validators, and flake-aware test discipline.
 
 ## What I work on
 
-- Multi-agent resume and cover-letter pipelines with local validation, PDF export, and usage caps for high-volume tailoring
-- Job posting import from public careers pages (Greenhouse, Lever, and similar) with SSRF-safe fetching
-- Cursor Agent Skills for test jam generation, risk analysis, and Jira workflows (`/qforge`)
-- Playwright adoption, release test strategy, and production-quality practices on customer-facing SaaS
-- Small open-source utilities for job-hunt workflows and deterministic QE gates (no AI required)
+- Playwright framework patterns, release test strategy, and customer-facing SaaS quality
+- REST API validation and role-based permission testing (matrix-driven, no production secrets in public repos)
+- Cursor Agent Skills for test jam generation, risk analysis, and Jira workflows (`/qforge` via **qe-skill**)
+- Structured test-case CSV pipelines with column-alignment and formula-injection guards
+- Static QE gates: Playwright smell scoring, posting analysis CLIs, and scoped accessibility scans on demo SUTs
 
-## Active projects
+## Flagship
 
 | Repo | What it is | Highlights |
 |------|------------|------------|
-| [resume-builder](https://github.com/glehman3/resume-builder) | Local AI resume and application harness | FastAPI, React, Cursor SDK, Fast vs Full tailor paths, batch queue, ATS-style keyword estimate |
 | [qe-skill](https://github.com/glehman3/qe-skill) | Quality Engineering Suite for Cursor | `/qforge` menu, test case/jam generation, GitHub MCP, CSV and Jira export |
 
 ## Supporting tools
 
 | Repo | What it is | Why it's here |
 |------|------------|----------------|
-| [jd-kit](https://github.com/glehman3/jd-kit) | JD fetch + analyze + skills match CLI | SSRF-safe posting fetch, keyword rubric, posting smell flags — built for job search |
+| [jd-kit](https://github.com/glehman3/jd-kit) | JD fetch + analyze + skills match CLI | SSRF-safe posting fetch, keyword rubric, posting smell flags |
 | [pw-smell](https://github.com/glehman3/pw-smell) | Playwright smell scorer | Static gate for `waitForTimeout`, `networkidle`, brittle selectors, weak assertions |
 | [todo-qa](https://github.com/glehman3/todo-qa) | TodoMVC Playwright demo | Seven E2E tests + scoped axe scan on the public Playwright demo — CI-ready |
+
+## QE craft
+
+| Repo | What it is | Why it's here |
+|------|------------|----------------|
+| [jam-lint](https://github.com/glehman3/jam-lint) | Test jam CSV structural validator | Column alignment, required headers, numbered-list rules, formula-injection detection |
+| [role-gate](https://github.com/glehman3/role-gate) | RBAC matrix validator | YAML roles/permissions + optional allow/deny matrix checks — generic examples only |
 
 ## Internal work
 
@@ -31,15 +41,16 @@ Most production impact lives in employer repos. At **Intuit** (Mailchimp), that 
 
 ## Scope notes
 
-- **resume-builder** runs locally for job search. Real resume content stays in gitignored `resume_data_local.py`; the repo ships placeholders only.
 - **qe-skill** is a Cursor workflow pack (skills + commands), not a hosted SaaS.
-- **jd-kit**, **pw-smell**, and **todo-qa** are portfolio demos — useful utilities, not production employer systems.
+- **jd-kit**, **pw-smell**, **todo-qa**, **jam-lint**, and **role-gate** are portfolio demos — useful utilities, not production employer systems.
 - **todo-qa** targets the public [Playwright TodoMVC demo](https://demo.playwright.dev/todomvc/#/) (toy SUT).
 
 ## Stack
 
-Python · TypeScript · JavaScript · Node · FastAPI · React · Playwright · pytest · GitHub Actions · Cursor SDK · SQLite · Jenkins · GCP · AWS
+Python · TypeScript · JavaScript · Node · Playwright · pytest · GitHub Actions · Cursor Agent Skills · Jenkins · GCP · AWS
 
 ## Contact
 
 [LinkedIn](https://www.linkedin.com/in/gregory-lehman)
+
+**Suggested pins (6 max):** `qe-skill`, `jam-lint`, `role-gate`, `todo-qa`, `pw-smell`, `jd-kit`
