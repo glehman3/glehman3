@@ -1,9 +1,8 @@
 # Gregory Lehman
 
-**Senior Software Quality Engineer / SDET** at **Intuit** (Mailchimp)  
-[LinkedIn](https://www.linkedin.com/in/gregory-lehman)
+**Senior Software Quality Engineer / SDET** · Intuit (Mailchimp) · [LinkedIn](https://www.linkedin.com/in/gregory-lehman)
 
-I build test automation, API and RBAC validation, and CI quality gates for customer-facing SaaS. In the open, I ship small deterministic tools — rubrics, structural validators, and posting parsers — that show how I think about quality without exposing employer systems.
+At Intuit I focus on Playwright automation, API and RBAC validation, and CI quality gates for customer-facing SaaS. The repos below are public portfolio work—small CLIs and validators I use to exercise the same habits (structured rubrics, static gates, readable output) without pulling in employer code or secrets.
 
 ## What I do
 
