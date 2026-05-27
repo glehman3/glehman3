@@ -4,8 +4,6 @@
 
 At Intuit I work on Playwright automation, API and RBAC validation, and CI quality gates for customer-facing SaaS. A big part of my focus is **AI-assisted tooling** that speeds up structured quality work—test jams, risk analysis, exports to Jira and Sheets—without replacing engineering judgment.
 
-This repo points at that work in public: [**qe-skill**](https://github.com/glehman3/qe-skill) is the flagship Cursor suite (`/qforge`), plus smaller CLIs and validators that support the same pipelines.
-
 ## What I do
 
 - **AI-assisted QE** — Cursor Agent Skills and `/qforge` workflows for test jam and case generation, risk analysis, and Jira-oriented handoff
